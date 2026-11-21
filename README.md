@@ -72,7 +72,7 @@ flowchart LR
 
 WaveDesk started as my own problem and became my individual project for SE 3352 (Software Requirements and Analysis) at Western. The full requirements process is documented in [`docs/`](docs/):
 
-- **Elicitation** from a client interview (my father, who has traded with Elliott Wave analysis for years), five similar systems (ElliottWaveTrader, TradingView, Seeking Alpha, WaveBasis, MotiveWave), a one-week analysis of real posts, and defect notes from an early prototype.
+- **Elicitation** from a client interview (an experienced retail trader who has used Elliott Wave analysis for years), five similar systems (ElliottWaveTrader, TradingView, Seeking Alpha, WaveBasis, MotiveWave), a one-week analysis of real posts, and defect notes from an early prototype.
 - **[18 requirements](docs/requirements.md)** (13 functional, 5 non-functional) consolidated from 28 statements, prioritised with MoSCoW and traced back to their sources.
 - **[13 business rules](docs/business-rules.md)**, most of them learned from real defects, each with a testable number.
 - **[Models and prototyping](docs/design.md):** domain, workflow, data and UI models, 16 user stories in 4 epics managed in Jira and Confluence, and three competing storyboarded prototypes.
@@ -92,3 +92,7 @@ The rule that shapes everything: in Canada, advice tailored to a specific person
 ## Disclaimer
 
 WaveDesk reports analysis exactly as published and does not provide investment advice.
+
+## How this was built
+
+The problem, the elicitation and the requirements work are mine (SE 3352). I use Claude as a working part of my development process, and the Python prototype was built with Claude under my direction; I set the business rules and tests it had to meet and reviewed every change.
