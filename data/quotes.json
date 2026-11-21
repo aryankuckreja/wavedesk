@@ -1,0 +1,7 @@
+[
+  {"ticker": "HIMS", "price": 26.35, "as_of": "2026-10-23T07:00"},
+  {"ticker": "AMZN", "price": 221.70, "as_of": "2026-10-23T07:00"},
+  {"ticker": "NVDA", "price": 147.20, "as_of": "2026-10-23T07:00"},
+  {"ticker": "SHOP", "price": 150.90, "as_of": "2026-10-23T07:00"},
+  {"ticker": "COST", "price": 935.10, "as_of": "2026-10-23T07:00"}
+]

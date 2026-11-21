@@ -1,0 +1,7 @@
+ticker,kind,quantity,cost,strike,expiry,account,watch_only
+HIMS,call,2,6.85,20,2028-01-21,margin,
+AMZN,share,10,212.40,,,tfsa,
+NVDA,share,15,138.00,,,tfsa,
+SHOP,share,0,0,,,,yes
+COST,share,0,0,,,,yes
+META,call,1,,680,,margin,
